@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E62EEB8C-C039-4983-A748-91FFB9E0DBDE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LockieTalkie/WelcomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "WelcomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - 48e76c2a04846e9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.logoImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - 2f090886e6423aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.logoImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - 9dc1f8139251f394"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.logoImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - bbbefda2ede301c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.logoImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - 879573ba0ea29f32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LockieTalkie.WelcomeViewController"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "E7140274-B7A9-4F77-B2E0-7240A078A46E - 19ec882a2f4bf8f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LockieTalkie.WelcomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LockieTalkie.WelcomeViewController&gt;"
+                  moduleName = "LockieTalkie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artiomporcescu/Desktop/LockieTalkie/LockieTalkie/WelcomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
