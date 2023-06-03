@@ -11,6 +11,8 @@ class LoginViewController: UIViewController {
     
     var styling = UIStyling()
     
+    var loginUserDefaults = UserDefaults.standard
+    
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!

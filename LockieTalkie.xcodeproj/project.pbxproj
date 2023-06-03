@@ -18,9 +18,16 @@
 		614E95792A27AA280090769C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E95782A27AA280090769C /* SignupViewController.swift */; };
 		614E957B2A27AA3B0090769C /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E957A2A27AA3B0090769C /* ForgotPasswordViewController.swift */; };
 		614E957D2A27D2A50090769C /* UIStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E957C2A27D2A50090769C /* UIStyling.swift */; };
+		614E95812A2A3F240090769C /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E95802A2A3F240090769C /* PhotoViewerViewController.swift */; };
+		614E95832A2A3F450090769C /* VideoPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E95822A2A3F450090769C /* VideoPlaybackViewController.swift */; };
+		614E95852A2A3F9F0090769C /* AddConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E95842A2A3F9F0090769C /* AddConversationViewController.swift */; };
+		614E95872A2A3FC20090769C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614E95862A2A3FC20090769C /* ProfileViewController.swift */; };
+		614E95892A2A48F60090769C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 614E95882A2A48F60090769C /* GoogleService-Info.plist */; };
+		AA2C87FC9D80D016D2E9470C /* Pods_LockieTalkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5911B3D77456DF227A5700 /* Pods_LockieTalkie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0579CA425C073047D99AC051 /* Pods-LockieTalkie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockieTalkie.debug.xcconfig"; path = "Target Support Files/Pods-LockieTalkie/Pods-LockieTalkie.debug.xcconfig"; sourceTree = "<group>"; };
 		614E95352A271F5D0090769C /* LockieTalkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockieTalkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614E95382A271F5D0090769C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614E953A2A271F5D0090769C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +41,13 @@
 		614E95782A27AA280090769C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		614E957A2A27AA3B0090769C /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		614E957C2A27D2A50090769C /* UIStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStyling.swift; sourceTree = "<group>"; };
+		614E95802A2A3F240090769C /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		614E95822A2A3F450090769C /* VideoPlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaybackViewController.swift; sourceTree = "<group>"; };
+		614E95842A2A3F9F0090769C /* AddConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConversationViewController.swift; sourceTree = "<group>"; };
+		614E95862A2A3FC20090769C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		614E95882A2A48F60090769C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAA97C99944612AF67F008FA /* Pods-LockieTalkie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockieTalkie.release.xcconfig"; path = "Target Support Files/Pods-LockieTalkie/Pods-LockieTalkie.release.xcconfig"; sourceTree = "<group>"; };
+		EE5911B3D77456DF227A5700 /* Pods_LockieTalkie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LockieTalkie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2C87FC9D80D016D2E9470C /* Pods_LockieTalkie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39176243B036087A2D21879F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0579CA425C073047D99AC051 /* Pods-LockieTalkie.debug.xcconfig */,
+				DAA97C99944612AF67F008FA /* Pods-LockieTalkie.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		614E952C2A271F5D0090769C = {
 			isa = PBXGroup;
 			children = (
 				614E95372A271F5D0090769C /* LockieTalkie */,
 				614E95362A271F5D0090769C /* Products */,
+				39176243B036087A2D21879F /* Pods */,
+				64B5493CA1529986E58F723B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,12 +101,25 @@
 				614E95442A271F5D0090769C /* Assets.xcassets */,
 				614E95462A271F5D0090769C /* LaunchScreen.storyboard */,
 				614E95492A271F5D0090769C /* Info.plist */,
+				614E95882A2A48F60090769C /* GoogleService-Info.plist */,
 				614E95412A271F5D0090769C /* LockieTalkie.xcdatamodeld */,
 				614E95782A27AA280090769C /* SignupViewController.swift */,
 				614E957A2A27AA3B0090769C /* ForgotPasswordViewController.swift */,
 				614E957C2A27D2A50090769C /* UIStyling.swift */,
+				614E95802A2A3F240090769C /* PhotoViewerViewController.swift */,
+				614E95822A2A3F450090769C /* VideoPlaybackViewController.swift */,
+				614E95842A2A3F9F0090769C /* AddConversationViewController.swift */,
+				614E95862A2A3FC20090769C /* ProfileViewController.swift */,
 			);
 			path = LockieTalkie;
+			sourceTree = "<group>";
+		};
+		64B5493CA1529986E58F723B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5911B3D77456DF227A5700 /* Pods_LockieTalkie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 614E954C2A271F5D0090769C /* Build configuration list for PBXNativeTarget "LockieTalkie" */;
 			buildPhases = (
+				80E4F8CAEA8E6854EEE160D3 /* [CP] Check Pods Manifest.lock */,
 				614E95312A271F5D0090769C /* Sources */,
 				614E95322A271F5D0090769C /* Frameworks */,
 				614E95332A271F5D0090769C /* Resources */,
+				BFDEE8748C73BAA4228E9A40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +183,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				614E95482A271F5D0090769C /* LaunchScreen.storyboard in Resources */,
+				614E95892A2A48F60090769C /* GoogleService-Info.plist in Resources */,
 				614E95452A271F5D0090769C /* Assets.xcassets in Resources */,
 				614E95402A271F5D0090769C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80E4F8CAEA8E6854EEE160D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LockieTalkie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDEE8748C73BAA4228E9A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockieTalkie/Pods-LockieTalkie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LockieTalkie/Pods-LockieTalkie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LockieTalkie/Pods-LockieTalkie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		614E95312A271F5D0090769C /* Sources */ = {
@@ -156,11 +241,15 @@
 				614E95792A27AA280090769C /* SignupViewController.swift in Sources */,
 				614E957B2A27AA3B0090769C /* ForgotPasswordViewController.swift in Sources */,
 				614E957D2A27D2A50090769C /* UIStyling.swift in Sources */,
+				614E95832A2A3F450090769C /* VideoPlaybackViewController.swift in Sources */,
+				614E95852A2A3F9F0090769C /* AddConversationViewController.swift in Sources */,
 				614E95392A271F5D0090769C /* AppDelegate.swift in Sources */,
+				614E95872A2A3FC20090769C /* ProfileViewController.swift in Sources */,
 				614E95752A27235F0090769C /* WelcomeViewController.swift in Sources */,
 				614E95432A271F5D0090769C /* LockieTalkie.xcdatamodeld in Sources */,
 				614E95772A27A9FB0090769C /* LoginViewController.swift in Sources */,
 				614E953B2A271F5D0090769C /* SceneDelegate.swift in Sources */,
+				614E95812A2A3F240090769C /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +391,7 @@
 		};
 		614E954D2A271F5D0090769C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0579CA425C073047D99AC051 /* Pods-LockieTalkie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -335,6 +425,7 @@
 		};
 		614E954E2A271F5D0090769C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA97C99944612AF67F008FA /* Pods-LockieTalkie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
